@@ -1,8 +1,7 @@
-$color-background: #eaecfa;
-$color-loader: #ce4233;
+
 
 body {
-  background: $color-background;
+  background: 	#008080;
 }
 
 .loader {
@@ -17,7 +16,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  color: $color-loader;
+  color: 	#008080;
   letter-spacing: 0.2em;
   
   &::before, &::after {
@@ -25,7 +24,7 @@ body {
     display: block;
     width: 15px;
     height: 15px;
-    background: $color-loader;
+    background: 	#008080;
     position: absolute;
     animation: load .7s infinite alternate ease-in-out;
   }
@@ -43,4 +42,8 @@ body {
   0% { left: 0; height: 30px; width: 15px }
   50% { height: 8px; width: 40px }
   100% { left: 235px; height: 30px; width: 15px}
+}
+.iframe
+{
+  position: center;
 }
