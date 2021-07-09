@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
 * {
 	margin: 0;
 	padding: 0;
@@ -76,18 +77,12 @@ nav a {
 	font-family: poppins;
 	line-height: 30px;
 }
-@font-face {
-    font-family: "My Custom Font";
-    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
-}
+
 p.customfont { 
-    font-family: "My Custom Font", Verdana, Tahoma;
-}
-body {
-    background: #008080;
-}
+    font-family: 'Minecraft', sans-serif;}
+
 .p {
-font-family: minecraft;
+    font-family: 'Minecraft', sans-serif;
 }
 .iframe-container {
     text-align: center;
